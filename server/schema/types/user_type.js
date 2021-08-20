@@ -1,11 +1,11 @@
 const graphql = require('graphql');
 const {
-    GraphQLObjecType,
+    GraphQLObjectType,
     GraphQLString,
 
 } = graphql;
 
-const UserType = new GraphQLObjecType({
+const UserType = new GraphQLObjectType({
     name: 'UserType',
     fields: {
         email: { type: GraphQLString }
